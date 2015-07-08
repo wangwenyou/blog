@@ -1,1 +1,36 @@
-baseurl: /blog
+markdown: kramdown
+pygments: true
+safe: false
+permalink: /posts/:title.html
+exclude:
+  - README.md
+
+name: wangwenyou的第二基地
+host: http://wangwenyou.github.io/blog/
+desc: wangwenyou的第二基地
+
+custom:
+    category:
+        default: Default Category
+        another: Another Category
+    categories:
+      - name:  default
+        title: Default Category
+
+      - name:  another
+        title: Another Category
+
+    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
+
+meta:
+    author:
+        name: wangwenyou
+        email: wengwenyou@gmail.com
+        disqus: your-disqus-shor1t-name              # Disqus缩略标识
+        gcse: 0003468987207319147188:13h55x32l0y     # Google自定义搜索标识ID
+        github: wangwenyou                 # GitHub账号
+        gravatar: 1cd8c12591616d8c22a1aa624f8c07834  # Gravatar头像标识
+
+    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
+    gapi: http://www.google.com/jsapi               # Google API地址
+    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
